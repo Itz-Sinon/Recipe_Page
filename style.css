@@ -1,0 +1,29 @@
+body {
+  background-color: hsl(30, 54%, 90%);
+}
+.background {
+  background-color: hsl(0, 0%, 100%);
+  width: 600px;
+  margin: 100px auto;
+  padding: 30px;
+}
+img {
+  margin: 8px auto;
+}
+.prepare {
+  background-color: hsl(330, 100%, 98%);
+  padding: 10px;
+}
+.tittle {
+  padding-left: 20px;
+}
+li {
+  text-indent: 10px;
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
