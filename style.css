@@ -12,13 +12,16 @@ img {
 }
 .prepare {
   background-color: hsl(330, 100%, 98%);
-  padding: 10px;
+  padding: 13px;
 }
 .tittle {
-  padding-left: 20px;
+  padding-left: 15px;
 }
 li {
   text-indent: 10px;
+}
+.alignedBulletPoint {
+  padding-left: 20px;
 }
 .attribution {
   font-size: 11px;
