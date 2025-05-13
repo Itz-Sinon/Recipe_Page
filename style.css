@@ -1,27 +1,77 @@
+.young-serif-regular {
+  font-family: "Young Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.outfit {
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
 body {
   background-color: hsl(30, 54%, 90%);
+  color: hsl(30, 10%, 34%);
+  font-size: 16px;
+  font-family: "Outfit";
 }
 .background {
   background-color: hsl(0, 0%, 100%);
+  border-radius: 30px;
   width: 600px;
   margin: 100px auto;
   padding: 30px;
 }
 img {
   margin: 8px auto;
+  border-radius: 10px;
+}
+.head {
+  font-family: "Young Serif";
 }
 .prepare {
   background-color: hsl(330, 100%, 98%);
+  border-radius: 10px;
   padding: 13px;
 }
-.tittle {
+.titlePrepare {
   padding-left: 15px;
+  font-size: 20px;
+  color: hsl(332, 51%, 32%);
+}
+ul#listPrepare li::marker{
+  color: hsl(332, 51%, 32%);
+}
+.bulletPointIngre {
+  list-style-type: square;
+}
+.colorBrown {
+  color: hsl(14, 45%, 36%);
+}
+.colorStone {
+  color: hsl(24, 5%, 18%);
 }
 li {
-  text-indent: 10px;
+  padding-left: 10px;
+  margin: 15px 0;
+}
+li::marker {
+  color: hsl(14, 45%, 36%);
+  font-weight: bold;
 }
 .alignedBulletPoint {
   padding-left: 20px;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+td {
+  padding-left: 30px;
+  line-height: 2;
+}
+tr:nth-last-child(n+2) td {
+  border-bottom: 1px solid gray;
 }
 .attribution {
   font-size: 11px;
